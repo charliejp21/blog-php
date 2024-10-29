@@ -13,7 +13,7 @@ CABECERA
 				
 				<a href="index.html">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/logotipo-negativo.png" alt="Logo de Juanito Travel" class="img-fluid logotipo">
+					<img src="vistas/img/logotipo-negativo.png" alt="Logo de Juanito Travel" class="img-fluid logotipo">
 
 				</a>
 

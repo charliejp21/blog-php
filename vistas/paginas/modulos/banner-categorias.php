@@ -19,7 +19,7 @@ BANNER
 
 				</div>
 				
-				<img src="vistas/vistas/vistas/vistas/vistas/img/bannerGrande01.jpg" class="img-fluid">
+				<img src="vistas/img/bannerGrande01.jpg" class="img-fluid">
 
 			</li>		
 

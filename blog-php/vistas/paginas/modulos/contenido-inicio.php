@@ -20,7 +20,7 @@ CONTENIDO INICIO
 
 						<a href="articulos.html"><h5 class="d-block d-lg-none py-3">Type something here</h5></a>
 			
-						<a href="articulos.html"><img src="vistas/img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%"></a>
+						<a href="articulos.html"><img src="vistas/vistas/vistas/vistas/vistas/img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%"></a>
 
 					</div>
 
@@ -55,7 +55,7 @@ CONTENIDO INICIO
 			
 						<a href="articulos.html">
 
-							<img src="vistas/img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -85,7 +85,7 @@ CONTENIDO INICIO
 
 				<div class="d-block d-lg-none">
 					
-					<img src="vistas/img/ad02.jpg" class="img-fluid" width="100%">
+					<img src="vistas/vistas/vistas/vistas/vistas/img/ad02.jpg" class="img-fluid" width="100%">
 
 				</div>
 
@@ -103,7 +103,7 @@ CONTENIDO INICIO
 			
 						<a href="articulos.html">
 
-							<img src="vistas/img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -143,7 +143,7 @@ CONTENIDO INICIO
 			
 						<a href="articulos.html">
 
-							<img src="vistas/img/articulo04.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo04.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -183,7 +183,7 @@ CONTENIDO INICIO
 			
 						<a href="articulos.html">
 
-							<img src="vistas/img/articulo05.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo05.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -227,7 +227,7 @@ CONTENIDO INICIO
 					
 					<h4>Sobre Mi</h4>
 
-					<img src="vistas/img/sobreMi.jpg" alt="Lorem ipsum dolor sit amet" class="img-fluid my-1">
+					<img src="vistas/vistas/vistas/vistas/vistas/img/sobreMi.jpg" alt="Lorem ipsum dolor sit amet" class="img-fluid my-1">
 
 					<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odio, eos architecto atque numquam alias laboriosam minima beatae consectetur.</p>
 
@@ -245,7 +245,7 @@ CONTENIDO INICIO
 							
 							<a href="articulos.html">
 
-								<img src="vistas/img/articulo10.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo10.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -269,7 +269,7 @@ CONTENIDO INICIO
 							
 							<a href="articulos.html">
 
-								<img src="vistas/img/articulo09.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo09.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -293,7 +293,7 @@ CONTENIDO INICIO
 							
 							<a href="articulos.html">
 
-								<img src="vistas/img/articulo08.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo08.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -318,19 +318,19 @@ CONTENIDO INICIO
 
 				<div class="my-4">
 					
-					<img src="vistas/img/ad01.jpg" class="img-fluid">
+					<img src="vistas/vistas/vistas/vistas/vistas/img/ad01.jpg" class="img-fluid">
 
 				</div>
 
 				<div class="my-4">
 					
-					<img src="vistas/img/ad02.jpg" class="img-fluid">
+					<img src="vistas/vistas/vistas/vistas/vistas/img/ad02.jpg" class="img-fluid">
 
 				</div>	
 
 				<div class="my-4">
 					
-					<img src="vistas/img/ad05.png" class="img-fluid">
+					<img src="vistas/vistas/vistas/vistas/vistas/img/ad05.png" class="img-fluid">
 
 				</div>	
 				

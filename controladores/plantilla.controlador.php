@@ -4,7 +4,7 @@ class ControladorPlantilla{
     
     public function ctrTraerPlantilla(){
 
-        include "vistas/plantilla.php"
+        include "vistas/plantilla.php";
 
 
     }

@@ -1,20 +1,10 @@
 <!--=====================================
-CONTENIDO CATEGORIA
+CONTENIDO INICIO
 ======================================-->
 
-<div class="container-fluid bg-white contenidoInicio py-2 py-md-4">
+<div class="container-fluid bg-white contenidoInicio pb-4">
 	
 	<div class="container">
-
-		<!-- BREADCRUMB -->
-
-		<ul class="breadcrumb bg-white p-0 mb-2 mb-md-4">
-
-			<li class="breadcrumb-item inicio"><a href="index.html">Inicio</a></li>
-
-			<li class="breadcrumb-item active">Mi viaje por Suramérica</li>
-
-		</ul>
 		
 		<div class="row">
 			
@@ -30,7 +20,7 @@ CONTENIDO CATEGORIA
 
 						<a href="articulos.html"><h5 class="d-block d-lg-none py-3">Type something here</h5></a>
 			
-						<a href="articulos.html"><img src="vistas/vistas/vistas/vistas/vistas/img/articulo06.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%"></a>
+						<a href="articulos.html"><img src="vistas/img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%"></a>
 
 					</div>
 
@@ -65,7 +55,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo07.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -95,7 +85,7 @@ CONTENIDO CATEGORIA
 
 				<div class="d-block d-lg-none">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad02.jpg" class="img-fluid" width="100%">
+					<img src="vistas/img/ad02.jpg" class="img-fluid" width="100%">
 
 				</div>
 
@@ -113,7 +103,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo08.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -153,7 +143,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo09.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo04.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -193,7 +183,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo10.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo05.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -231,38 +221,19 @@ CONTENIDO CATEGORIA
 
 			<div class="d-none d-md-block pt-md-4 pt-lg-0 col-md-4 col-lg-3">
 
-				<!-- ETIQUETAS -->	
+				<!-- SOBRE MI -->
 
-				<div>
+				<div class="sobreMi">
+					
+					<h4>Sobre Mi</h4>
 
-					<h4>Etiquetas</h4>
+					<img src="vistas/img/sobreMi.jpg" alt="Lorem ipsum dolor sit amet" class="img-fluid my-1">
 
+					<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odio, eos architecto atque numquam alias laboriosam minima beatae consectetur.</p>
 
-						<a href="#suramerica" class="btn btn-secondary btn-sm m-1">suramerica</a> 				
-					
-						<a href="#colombia" class="btn btn-secondary btn-sm m-1">colombia</a> 					
-					
-						<a href="#peru" class="btn btn-secondary btn-sm m-1">peru</a> 					
-					
-						<a href="#argentina" class="btn btn-secondary btn-sm m-1">argentina</a> 					
-					
-						<a href="#chile" class="btn btn-secondary btn-sm m-1">chile</a> 					
-					
-						<a href="#brasil" class="btn btn-secondary btn-sm m-1">brasil</a> 					
-					
-						<a href="#ecuador" class="btn btn-secondary btn-sm m-1">ecuador</a> 						
-					
-						<a href="#venezuela" class="btn btn-secondary btn-sm m-1">venezuela</a> 
-											
-						<a href="#paraguay" class="btn btn-secondary btn-sm m-1">paraguay</a> 						
-					
-						<a href="#uruguay" class="btn btn-secondary btn-sm m-1">uruguay</a> 						
-					
-						<a href="#bolivia" class="btn btn-secondary btn-sm m-1">bolivia</a> 					
-										
-				</div>	
+				</div>
 
-				<!-- Artículos Destacados -->
+				<!-- Artículos destacados -->
 
 				<div class="my-4">
 					
@@ -274,7 +245,7 @@ CONTENIDO CATEGORIA
 							
 							<a href="articulos.html">
 
-								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/img/articulo10.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -298,7 +269,7 @@ CONTENIDO CATEGORIA
 							
 							<a href="articulos.html">
 
-								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/img/articulo09.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -322,7 +293,7 @@ CONTENIDO CATEGORIA
 							
 							<a href="articulos.html">
 
-								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/img/articulo08.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -345,21 +316,21 @@ CONTENIDO CATEGORIA
 
 				<!-- PUBLICIDAD -->
 
-				<div class="mb-4">
+				<div class="my-4">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad03.png" class="img-fluid">
+					<img src="vistas/img/ad01.jpg" class="img-fluid">
 
 				</div>
 
 				<div class="my-4">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad02.jpg" class="img-fluid">
+					<img src="vistas/img/ad02.jpg" class="img-fluid">
 
 				</div>	
 
 				<div class="my-4">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad05.png" class="img-fluid">
+					<img src="vistas/img/ad05.png" class="img-fluid">
 
 				</div>	
 				
