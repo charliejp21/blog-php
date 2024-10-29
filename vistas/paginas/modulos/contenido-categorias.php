@@ -30,7 +30,7 @@ CONTENIDO CATEGORIA
 
 						<a href="articulos.html"><h5 class="d-block d-lg-none py-3">Type something here</h5></a>
 			
-						<a href="articulos.html"><img src="vistas/vistas/vistas/vistas/vistas/img/articulo06.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%"></a>
+						<a href="articulos.html"><img src="vistas/img/articulo06.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%"></a>
 
 					</div>
 
@@ -65,7 +65,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo07.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo07.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -95,7 +95,7 @@ CONTENIDO CATEGORIA
 
 				<div class="d-block d-lg-none">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad02.jpg" class="img-fluid" width="100%">
+					<img src="vistas/img/ad02.jpg" class="img-fluid" width="100%">
 
 				</div>
 
@@ -113,7 +113,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo08.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo08.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -153,7 +153,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo09.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo09.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -193,7 +193,7 @@ CONTENIDO CATEGORIA
 			
 						<a href="articulos.html">
 
-							<img src="vistas/vistas/vistas/vistas/vistas/img/articulo10.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
+							<img src="vistas/img/articulo10.png" alt="Lorem ipsum dolor sit amet" class="img-fluid" width="100%">
 
 						</a>
 
@@ -274,7 +274,7 @@ CONTENIDO CATEGORIA
 							
 							<a href="articulos.html">
 
-								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -298,7 +298,7 @@ CONTENIDO CATEGORIA
 							
 							<a href="articulos.html">
 
-								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -322,7 +322,7 @@ CONTENIDO CATEGORIA
 							
 							<a href="articulos.html">
 
-								<img src="vistas/vistas/vistas/vistas/vistas/img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
+								<img src="vistas/img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
 							</a>
 
@@ -347,19 +347,19 @@ CONTENIDO CATEGORIA
 
 				<div class="mb-4">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad03.png" class="img-fluid">
+					<img src="vistas/img/ad03.png" class="img-fluid">
 
 				</div>
 
 				<div class="my-4">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad02.jpg" class="img-fluid">
+					<img src="vistas/img/ad02.jpg" class="img-fluid">
 
 				</div>	
 
 				<div class="my-4">
 					
-					<img src="vistas/vistas/vistas/vistas/vistas/img/ad05.png" class="img-fluid">
+					<img src="vistas/img/ad05.png" class="img-fluid">
 
 				</div>	
 				

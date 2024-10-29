@@ -11,17 +11,28 @@ BANNER
 		<ul class="slide-area">
 			
 			<li>
-
-				<div class="d-none d-md-block textoBanner">
-					
-					<h1>Watch how we work</h1>
-					<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ea quidem</h5>
-
-				</div>
 				
-				<img src="vistas/vistas/vistas/vistas/vistas/img/bannerGrande01.jpg" class="img-fluid">
+				<img src="vistas/img/banner01.jpg" class="img-fluid">
 
-			</li>		
+			</li>
+
+			<li>
+				
+				<img src="vistas/img/banner02.jpg" class="img-fluid">
+
+			</li>
+
+			<li>
+				
+				<img src="vistas/img/banner03.jpg" class="img-fluid">
+
+			</li>
+
+			<li>
+				
+				<img src="vistas/img/banner04.jpg" class="img-fluid">
+
+			</li>
 
 		</ul>
 
