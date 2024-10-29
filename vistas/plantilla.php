@@ -13,13 +13,15 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Juanito Travel</title>
+	<title><?php echo $blog["titulo"];?></title>
 
 	<link rel="icon" href="vistas/img/icono.jpg">
 
-	<meta name="title" content="Juanito Travel">
+	<meta name="title" content="<?php echo $blog["titulo"];?>">
 
-	<meta name="description" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat similique iure nihil cupiditate perspiciatis est tenetur aliquid expedita labore autem! Modi nihil non tempora voluptatem vero quasi, nam voluptas hic">
+	<meta name="description" content="<?php echo $blog["description"];?>">
+
+	<meta name="keywords" content="<?php echo $blog[""];?>">
 
 	<!--=====================================
 	PLUGINS DE CSS
