@@ -1,3 +1,10 @@
+<?php
+
+	$blog = ControladorBlog :: ctrMostrarBlog();
+
+	echo '<pre>'; print_r($blog); echo '</pre>';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +16,10 @@
 	<title>Juanito Travel</title>
 
 	<link rel="icon" href="vistas/img/icono.jpg">
+
+	<meta name="title" content="Juanito Travel">
+
+	<meta name="description" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat similique iure nihil cupiditate perspiciatis est tenetur aliquid expedita labore autem! Modi nihil non tempora voluptatem vero quasi, nam voluptas hic">
 
 	<!--=====================================
 	PLUGINS DE CSS
