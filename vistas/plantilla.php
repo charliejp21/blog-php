@@ -21,7 +21,22 @@
 
 	<meta name="description" content="<?php echo $blog["description"];?>">
 
-	<meta name="keywords" content="<?php echo $blog[""];?>">
+	<?php 
+
+		$palabras_clave = json_decode($_blog["palabras_clave"], true);
+
+		$p_claves = "";
+
+		foreach($palabras_clave as $key -> $value){
+
+			$p_claves .= $value. ", "
+		}
+
+		$p_claves = substr($p_claves, 0 , -2)
+	
+	?>
+
+	<meta name="keywords" content="<?php echo $p_claves; ?>">
 
 	<!--=====================================
 	PLUGINS DE CSS
