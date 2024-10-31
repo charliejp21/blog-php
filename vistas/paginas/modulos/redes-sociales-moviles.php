@@ -10,7 +10,7 @@ REDES SOCIALES PARA MÓVIL
 
 			$redesSociales = json_decode($blog["redes_sociales"], true);
 			
-			foreach($redesSociales as $key -> $value){
+			foreach($redesSociales as $key => $value){
 
 				echo '
 				<li>
@@ -18,7 +18,7 @@ REDES SOCIALES PARA MÓVIL
 						<i class="'.$value["icono"].' rounded-circle text-white mr-3 mr-sm-4"></i>
 					</a>
 					
-				</li>'
+				</li>';
 
 			}
 		

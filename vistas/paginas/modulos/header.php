@@ -28,13 +28,13 @@ CABECERA
 
 					$redesSociales = json_decode($blog["redes_sociales"], true);
 					
-					foreach($redesSociales as $key -> $value){
+					foreach($redesSociales as $key => $value){
 
 						echo '<li>
 							<a href="'.$value["url"].'" target="_blank">
 								<i class="'.$value["icono"].' rounded-circle text-white mr-1"></i>
 							</a>
-						</li>'
+						</li>';	
 
 					}
 				

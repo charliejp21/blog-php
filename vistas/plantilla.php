@@ -1,8 +1,7 @@
 <?php
 
 	$blog = ControladorBlog :: ctrMostrarBlog();
-
-	echo '<pre>'; print_r($blog); echo '</pre>';
+	$categorias = ControladorBlog::ctrMostrarCategorias();
 
 ?>
 <!DOCTYPE html>
@@ -19,20 +18,20 @@
 
 	<meta name="title" content="<?php echo $blog["titulo"];?>">
 
-	<meta name="description" content="<?php echo $blog["description"];?>">
+	<meta name="description" content="<?php echo $blog["descripcion"];?>">
 
 	<?php 
 
-		$palabras_clave = json_decode($_blog["palabras_clave"], true);
+		$palabras_clave = json_decode($blog["palabras_claves"], true);
 
 		$p_claves = "";
 
-		foreach($palabras_clave as $key -> $value){
+		foreach($palabras_clave as $key => $value){
 
-			$p_claves .= $value. ", "
+			$p_claves .= $value. ", ";
 		}
 
-		$p_claves = substr($p_claves, 0 , -2)
+		$p_claves = substr($p_claves, 0 , -2);
 	
 	?>
 
