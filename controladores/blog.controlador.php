@@ -13,5 +13,16 @@ Class ControladorBlog{
 
     }
 
+    //Mostrar categorias
+    static public function ctrMostrarCategorias(){
+
+        $tabla = "categorias";
+
+        $respuesta = ModeloBlog :: mdlMostrarCategorias($tabla);
+
+        return $respuesta;
+
+    }
+
 
 }

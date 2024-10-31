@@ -17,5 +17,19 @@ Class ModeloBlog{
 
         $stmt = null;
     }
+
+    //Mostrar categorias del blog
+    static public function mdlMostrarCategorias($tabla){
+
+        $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla");
+
+        $stmt -> execute();
+
+        return $stmt -> fetchAll();
+
+        $stmt -> close();
+
+        $stmt = null;
+    }
 }
 

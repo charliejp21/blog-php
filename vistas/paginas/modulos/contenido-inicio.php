@@ -227,7 +227,7 @@ CONTENIDO INICIO
 					
 					<?php 
 
-						echo $blog["sobre_mi"]
+						echo $blog["sobre_mi"];
 					
 					?>
 
