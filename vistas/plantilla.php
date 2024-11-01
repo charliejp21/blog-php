@@ -11,31 +11,95 @@
 	<meta charset="UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title><?php echo $blog["titulo"];?></title>
-
-	<link rel="icon" href="vistas/img/icono.jpg">
-
-	<meta name="title" content="<?php echo $blog["titulo"];?>">
-
-	<meta name="description" content="<?php echo $blog["descripcion"];?>">
 
 	<?php 
 
-		$palabras_clave = json_decode($blog["palabras_claves"], true);
+		$validarRuta = "";
 
-		$p_claves = "";
+		// Verificación de URL amigable
+		if (isset($_GET["pagina"])) {
 
-		foreach($palabras_clave as $key => $value){
+			foreach ($categorias as $key => $value) {
 
-			$p_claves .= $value. ", ";
-		}
+				if ($_GET["pagina"] == $value["ruta_categoria"]) {
+			
+					$validarRuta = "categorias";
 
-		$p_claves = substr($p_claves, 0 , -2);
+					break;
+
+				}
+
+			}
+
+			if($validarRuta == "categorias"){
+
+				echo 
+				
+				'<title>'.$blog["titulo"].'-'.$value["ruta_categoria"].'</title>';
+				'<meta name="title" content="'.$value["titulo_categoria"].'">';
+				'<meta name="description" content="'.$value["descripcion_categoria"].'">';
 	
-	?>
+				$palabras_clave = json_decode($value["p_claves_categoria"], true);
+	
+				$p_claves = "";
+	
+				foreach($palabras_clave as $key => $value){
+	
+					$p_claves .= $value. ", ";
+				}
+	
+				$p_claves = substr($p_claves, 0 , -2);
+	
+				echo '<meta name="keywords" content="'.$p_claves. '">';
+	
+			}else {
+	
+				echo 
+				
+				'<title>'.$blog["titulo"].'</title>';
+				'<meta name="title" content="'.$blog["titulo"].'">';
+				'<meta name="description" content="'.$blog["descripcion"].'">';
+	
+				$palabras_clave = json_decode($blog["palabras_claves"], true);
+	
+				$p_claves = "";
+	
+				foreach($palabras_clave as $key => $value){
+	
+					$p_claves .= $value. ", ";
+				}
+	
+				$p_claves = substr($p_claves, 0 , -2);
+	
+				echo '<meta name="keywords" content="'.$p_claves. '">';
+	
+			}
 
-	<meta name="keywords" content="<?php echo $p_claves; ?>">
+		}else{
+
+			echo 
+				
+			'<title>'.$blog["titulo"].'</title>';
+			'<meta name="title" content="'.$blog["titulo"].'">';
+			'<meta name="description" content="'.$blog["descripcion"].'">';
+
+			$palabras_clave = json_decode($blog["palabras_claves"], true);
+
+			$p_claves = "";
+
+			foreach($palabras_clave as $key => $value){
+
+				$p_claves .= $value. ", ";
+			}
+
+			$p_claves = substr($p_claves, 0 , -2);
+
+			echo '<meta name="keywords" content="'.$p_claves. '">';
+		}
+		
+	?>
+	
+	<link rel="icon" href="vistas/img/icono.jpg">
 
 	<!--=====================================
 	PLUGINS DE CSS
