@@ -93,8 +93,29 @@
         include "paginas/modulos/buscador-movil.php";
         include "paginas/modulos/menu.php";
 
-        //Navegar entre paginas
-        include "paginas/inicio.php";
+		//URLS amigables
+		if(isset($_GET["pagina"])){
+
+			foreach($categorias as $key => $value){
+
+				if($_GET["pagina"] === $value["ruta_categoria"]){
+
+					include "paginas/categorias.php";
+
+					break;
+
+				}else{
+
+					include "paginas/404.php";
+
+					break;
+
+				}
+			}
+		}else{
+
+			include "paginas/inicio.php";
+		}
 
         //Modulos fijos inferiores
         include "paginas/modulos/footer.php";
