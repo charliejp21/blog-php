@@ -85,42 +85,49 @@
 
 <body>
     
-    <?php 
+	<?php 
 
-        //Modulos fijos superiores
-        include "paginas/modulos/header.php";
-        include "paginas/modulos/redes-sociales-moviles.php";
-        include "paginas/modulos/buscador-movil.php";
-        include "paginas/modulos/menu.php";
+		// Módulos fijos superiores
+		include "paginas/modulos/header.php";
+		include "paginas/modulos/redes-sociales-moviles.php";
+		include "paginas/modulos/buscador-movil.php";
+		include "paginas/modulos/menu.php";
 
-		//URLS amigables
-		if(isset($_GET["pagina"])){
+		// Verificación de URL amigable
+		if (isset($_GET["pagina"])) {
 
-			foreach($categorias as $key => $value){
+			$pagina_encontrada = false;
 
-				if($_GET["pagina"] === $value["ruta_categoria"]){
+			foreach ($categorias as $key => $value) {
+
+				if ($_GET["pagina"] == $value["ruta_categoria"]) {
 
 					include "paginas/categorias.php";
 
-					break;
-
-				}else{
-
-					include "paginas/404.php";
+					$pagina_encontrada = true;
 
 					break;
 
 				}
+
 			}
-		}else{
+
+			// Si no se encuentra la categoría, carga el 404.php
+			if (!$pagina_encontrada) {
+
+				include "paginas/404.php";
+
+			}
+		} else {
 
 			include "paginas/inicio.php";
+			
 		}
 
-        //Modulos fijos inferiores
-        include "paginas/modulos/footer.php";
+		// Módulos fijos inferiores
+		include "paginas/modulos/footer.php";
 
-    ?>
+	?>
 
 <script src="vistas/js/script.js"></script>
 </body>
