@@ -24,5 +24,16 @@ Class ControladorBlog{
 
     }
 
+    //Mostrar articulos y categorias con inner join
+    static public function ctrMostrarArticulosInnerJoin($cantidad){
+
+        $tabla1 = "categorias";
+        $tabla2 = "articulos";
+
+        $respuesta = ModeloBlog::mdlMostrarArticulosInnerJoin($tabla1, $tabla2, $cantidad);
+
+        return $respuesta;
+
+    }
 
 }

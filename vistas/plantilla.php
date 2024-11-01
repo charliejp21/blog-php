@@ -2,6 +2,7 @@
 
 	$blog = ControladorBlog :: ctrMostrarBlog();
 	$categorias = ControladorBlog::ctrMostrarCategorias();
+	$articulos = ControladorBlog::ctrMostrarArticulosInnerJoin(5);
 
 ?>
 <!DOCTYPE html>
