@@ -2,8 +2,9 @@
 
 	$blog = ControladorBlog :: ctrMostrarBlog();
 	$categorias = ControladorBlog::ctrMostrarCategorias();
-	$articulos = ControladorBlog::ctrMostrarArticulosInnerJoin(5);
-
+	$articulos = ControladorBlog::ctrMostrarArticulosInnerJoin(0, 5);
+	$totalArticulos = ControladorBlog :: ctrPaginarArticulosBlog();
+	$totalPaginas = ceil(count($totalArticulos)/5);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +98,6 @@
 
 			echo '<meta name="keywords" content="'.$p_claves. '">';
 		}
-		
 	?>
 	
 	<link rel="icon" href="vistas/img/icono.jpg">
@@ -163,27 +163,44 @@
 
 			$pagina_encontrada = false;
 
-			foreach ($categorias as $key => $value) {
+			if(is_numeric(isset($_GET["pagina"])){
 
-				if ($_GET["pagina"] == $value["ruta_categoria"]) {
+				$desde = ($_GET["pagina"] -1 ) *5;
 
-					include "paginas/categorias.php";
+				$cantidad = 5;
+				
+				$articulos = ControladorBlog::ctrMostrarArticulosInnerJoin($desde, $cantidad);
+				
+			}else{
 
-					$pagina_encontrada = true;
+				foreach ($categorias as $key => $value) {
 
-					break;
-
+					if ($_GET["pagina"] == $value["ruta_categoria"]) {
+	
+						include "paginas/categorias.php";
+	
+						$pagina_encontrada = true;
+	
+						break;
+	
+					}
+	
 				}
-
 			}
+		}
 
-			// Si no se encuentra la categoría, carga el 404.php
-			if (!$pagina_encontrada) {
+		else if(is_numeric(isset($_GET["pagina"])) && $_GET["pagina"] <= $totalPaginas) {
 
-				include "paginas/404.php";
+			include "paginas/inicio.php";
 
-			}
-		} else {
+		}
+
+		// Si no se encuentra la categoría, carga el 404.php
+		if (!$pagina_encontrada) {
+
+			include "paginas/404.php";
+
+		} else{
 
 			include "paginas/inicio.php";
 			
@@ -194,6 +211,7 @@
 
 	?>
 
+<input type="hidden" id="rutaActual" value="<?php echo $blog["dominio"]; ?>">
 <script src="vistas/js/script.js"></script>
 </body>
 
