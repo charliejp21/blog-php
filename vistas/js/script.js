@@ -100,7 +100,7 @@ var rutaActual = $("#rutaActual").val();
 
 $(".pagination").twbsPagination({
 	totalPages: totalPaginas,
-	startPage: ,
+	startPage: paginaActual,
 	visiblePages: 4,
 	first: "Primero",
 	last: "Último",
